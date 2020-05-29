@@ -8,7 +8,7 @@ A preprint of the paper may be found [here](https://doi.org/10.31223/osf.io/me5u
 
 ## Guide to the files
 
-### The following files contain proxy data only
+### The following files contain proxy data only.
 
 These do not have any information from the climate model used for DA and so can be used for other analyses, data-model comparison, etc.
 
@@ -20,12 +20,12 @@ These do not have any information from the climate model used for DA and so can 
 
 **Tierney2020_ProxyData_5x5_deltaSST.nc** This is a 5 x 5 gridded netCDF file that is derived from the data in **Tierney2020_ProxyDataPaired.csv**. Proxy anomalies within each 5 x 5 gridpoint were averaged, regardless of type. Only gridpoints with proxy locations in them contain data; i.e. no spatial interpolation or extrapolation was applied.
 
-### The following files contain the results from the LGM DA
+### The following files contain the results from the LGM DA.
 
 These products are a *blend* of proxy and climate model information. The model simulations used for the DA were conducted with the isotope-enabled Community Earth System Model (iCESM). The proxy data were assimilated in native proxy units using an ensemble square root Kalman filter method. Please refer to our paper for details about this process.
 
 When using these products, keep in mind that the structures in the fields are informed by how well CESM simulates large-scale patterns in the ocean and the atmosphere, which could be biased in some regions.
 
-**Tierney2020_DA_atm.nc** This netCDF file contains atmospheric variables, including mean annual surface temperature (SAT) and mean annual d18O of precipitation. The file includes both absolute values for LGM and LH as well as the anomaly fields (variables that begin with `delta'). All values have associated 1-sigma errors (variables that being with `err') from the ensemble DA results. These data are on a 1.9 (latitude) by 2.5 (longitude) grid.
+**Tierney2020_DA_atm.nc** This netCDF file contains atmospheric variables, including mean annual surface temperature (SAT) and mean annual d18O of precipitation. The file includes both absolute values for LGM and LH as well as the anomaly fields (variables that begin with *delta*). All values have associated 1-sigma errors (variables that being with *err*) from the ensemble DA results. These data are on a 1.9 (latitude) by 2.5 (longitude) rectangular grid.
 
-**Tierney2020_DA_ocn.nc** This netCDF file contains oceanic variables, including mean annual SST, sea-surface salinity, and d18O of surface seawater. As above, the file includes both absolute and anomaly fields and errors. These data are on a nominal 1 degree Greenland pole grid. Specifically this is the POP ocean model gx1v6 grid. 
+**Tierney2020_DA_ocn.nc** This netCDF file contains oceanic variables, including mean annual SST, sea-surface salinity, and d18O of surface seawater. As above, the file includes both absolute and anomaly fields and errors. These data are on a nominal 1 degree Greenland pole grid. Specifically this is the POP ocean model gx1v6 tripolar grid. 
