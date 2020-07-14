@@ -1,5 +1,5 @@
 # lgmDA
-![Map of the LGM](lgmMap.jpg)
+![Map of the LGM](lgmMap.jpg = 100x)
 
 This is a public repository containing the data used for Last Glacial Maximum (lgm) data assimilation (DA), as well as the results of the assimilation. When using these data or the DA product, please cite the following paper:
 
