@@ -1,4 +1,5 @@
 # lgmDA
+![Map of the LGM](lgmMap.jpg)
 
 This is a public repository containing the data used for Last Glacial Maximum (lgm) data assimilation (DA), as well as the results of the assimilation. When using these data or the DA product, please cite the following paper:
 
@@ -29,3 +30,5 @@ When using these products, keep in mind that the structures in the fields are in
 **Tierney2020_DA_atm.nc** This netCDF file contains atmospheric variables, including mean annual surface temperature (SAT) and mean annual &delta;<sup>18</sup>O of precipitation. The file includes both absolute values for LGM and LH as well as the anomaly fields (variables that begin with *delta*). All values have associated 1-sigma errors (variables that being with *err*) from the ensemble DA results. These data are on a 1.9 (latitude) by 2.5 (longitude) rectangular grid.
 
 **Tierney2020_DA_ocn.nc** This netCDF file contains oceanic variables, including mean annual SST, sea-surface salinity, and &delta;<sup>18</sup>O of surface seawater. As above, the file includes both absolute and anomaly fields and errors. These data are on a nominal 1 degree Greenland pole grid. Specifically this is the POP ocean model gx1v6 tripolar grid. 
+
+**Tierney2020_DA_ocn_regrid.nc** This netCDF file contains the oceanic variables regridded onto a 1 x 1 degree Cartesian grid. This may be easier to use for plotting.
