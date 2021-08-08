@@ -11,9 +11,9 @@ A preprint of the paper may be found [here](https://doi.org/10.31223/osf.io/me5u
 
 ## Guide to the files
 
-### The following files contain proxy data only.
+### proxyData
 
-These do not have any information from the climate model used for DA and so can be used for other analyses, data-model comparison, etc.
+The files in the proxyData folder contain proxy data only. These do not have any information from the climate model used for DA and so can be used for other analyses, data-model comparison, etc.
 
 **Tierney2020_LGMProxyData.csv** This contains the raw proxy data values for the LGM timeslice (average values from 23-19 ka) as well as calibrated absolute SSTs (with lower and upper 2-sigma bounds) derived from the Bayesian models BAYSPAR, BAYSPLINE, BAYMAG, and BAYFOX. Site location, foraminifera species, cleaning method (for Mg/Ca) and original data dois are included as well.
 
@@ -23,7 +23,9 @@ These do not have any information from the climate model used for DA and so can 
 
 **Tierney2020_ProxyData_5x5_deltaSST.nc** This is a 5 x 5 gridded netCDF file that is derived from the data in **Tierney2020_ProxyDataPaired.csv**. Proxy anomalies within each 5 x 5 gridpoint were averaged, regardless of type. Only gridpoints with proxy locations in them contain data; i.e. no spatial interpolation or extrapolation was applied.
 
-### The following files contain the results from the LGM DA.
+### version 1.0
+
+The files in the version 1.0 folder contain the results from the LGM DA that was published in Tierney et al., 2020.
 
 These products are a *blend* of proxy and climate model information. The model simulations used for the DA were conducted with the isotope-enabled Community Earth System Model (iCESM). The proxy data were assimilated in native proxy units using an ensemble square root Kalman filter method. Please refer to our paper for details about this process.
 
