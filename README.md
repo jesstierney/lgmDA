@@ -5,7 +5,7 @@
 
 This is a public repository containing the data used for Last Glacial Maximum (lgm) data assimilation (DA), as well as the results of the assimilation. When using these data or the DA product, please cite the following paper:
 
-Tierney, J.E., Zhu, J., King, J., Malevich, S.B., Hakim, G.J., and Poulsen, C. J. (2020). Glacial cooling and climate sensitivity revisited. Nature (in press).
+Tierney, J.E., Zhu, J., King, J., Malevich, S.B., Hakim, G.J., and Poulsen, C. J. (2020). Glacial cooling and climate sensitivity revisited. Nature 584, 569-573. https://doi.org/10.1038/s41586-020-2617-x.
 
 A preprint of the paper may be found [here](https://doi.org/10.31223/osf.io/me5uj).
 

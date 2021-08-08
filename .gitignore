@@ -5,3 +5,5 @@ Code and data
 ModelPriorsOcean.nc
 ModelPriorsAtm.nc
 LGM_DA_Atm_Precip.nc
+ModelPriorsOcean_regrid.nc
+investigateProxyPairs.m
