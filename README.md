@@ -41,7 +41,9 @@ When using these products, keep in mind that the structures in the fields are in
 
 The files in the version 2.0 folder contain an updated version of the LGM DA that uses a wider array of model priors. Please read the .pdf, lgmDAv2_README in the folder for a complete description of this product and a guide to interpretation. Please cite the Zenodo doi when using this product:
 
-https://zenodo.org/badge/DOI/10.5281/zenodo.5171436.svg
+<p align="center">
+<img src=https://zenodo.org/badge/DOI/10.5281/zenodo.5171436.svg>
+</p>
 
 **lgmDA_hol_SST_monthly_climo.nc** and **lgmDA_lgm_SST_monthly_climo.nc** Monthly SST climatologies for the LH and LGM timeslices respectively.
 
