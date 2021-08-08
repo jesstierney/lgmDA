@@ -36,3 +36,15 @@ When using these products, keep in mind that the structures in the fields are in
 **Tierney2020_DA_ocn.nc** This netCDF file contains oceanic variables, including mean annual SST, sea-surface salinity, and &delta;<sup>18</sup>O of surface seawater. As above, the file includes both absolute and anomaly fields and errors. These data are on a nominal 1 degree Greenland pole grid. Specifically this is the POP ocean model gx1v6 tripolar grid. 
 
 **Tierney2020_DA_ocn_regrid.nc** This netCDF file contains the oceanic variables regridded onto a 1 x 1 degree Cartesian grid. This may be easier to use for plotting.
+
+### version 2.0
+
+The files in the version 2.0 folder contain an updated version of the LGM DA that uses a wider array of model priors. Please read the .pdf, lgmDAv2_README in the folder for a complete description of this product and a guide to interpretation.
+
+**lgmDA_hol_SST_monthly_climo.nc** and **lgmDA_lgm_SST_monthly_climo.nc** Monthly SST climatologies for the LH and LGM timeslices respectively.
+
+**lgmDA_hol_Ocn_annual.nc** and **lgmDA_lgm_Ocn_annual.nc** Mean annual ocean variables (SST, SSS, and &delta;<sup>18</sup>O of surface seawater).
+
+**lgmDA_hol_ATM_annual.nc** and **lgmDA_ATM_Ocn_annual.nc** Mean annual atmospheric variables (SAT, precipitation, &delta;<sup>18</sup>O of precipitation, and sea ice fraction).
+
+**lgmDA_hol_ATM_monthly_climo.nc** and **lgmDA_lgm_ATM_monthly_climo.nc** Monthly SST climatologies for SAT and sea ice fraction.

@@ -7,3 +7,6 @@ ModelPriorsAtm.nc
 LGM_DA_Atm_Precip.nc
 ModelPriorsOcean_regrid.nc
 investigateProxyPairs.m
+compareVersions.m
+version2.0LGMRPriors
+version2.0oldPriors
