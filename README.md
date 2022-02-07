@@ -37,9 +37,9 @@ When using these products, keep in mind that the structures in the fields are in
 
 **Tierney2020_DA_ocn_regrid.nc** This netCDF file contains the oceanic variables regridded onto a 1 x 1 degree Cartesian grid. This may be easier to use for plotting.
 
-### version 2.0
+### version 2.0 and 2.1
 
-The files in the version 2.0 folder contain an updated version of the LGM DA that uses a wider array of model priors. Please read the .pdf, lgmDAv2_README in the folder for a complete description of this product and a guide to interpretation. Please cite the Zenodo doi when using this product: https://doi.org/10.5281/zenodo.5171432.
+The files in the version 2.0 and 2.1 folders contain an updated version of the LGM DA that uses a wider array of model priors. Please read the README .pdf in each folder for a complete description of this product and a guide to interpretation. Please cite the Zenodo doi when using these products: https://doi.org/10.5281/zenodo.5171432.
 
 **lgmDA_hol_SST_monthly_climo.nc** and **lgmDA_lgm_SST_monthly_climo.nc** Monthly SST climatologies for the LH and LGM timeslices respectively.
 
